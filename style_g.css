@@ -1,0 +1,234 @@
+body{
+	background-color: #ded7cd;
+}
+header{
+	background-color: #1a2229;
+	color: #BF9341;
+	width: 100%;
+	font-family: 'Tapestry', cursive;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 60px;
+    padding-bottom: 60px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.start{
+	margin-left: 20%;
+}
+
+.Intro-pic{
+	display: inline-block;
+}
+.Intro-text{
+	display: inline-block;
+	width: 500px;
+}
+.pfp{
+	width: 150px;
+
+}
+h2{
+	padding-left: 5px;
+}
+
+p{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+button{ 
+	background-color:#b83850;
+	color:white;
+	border: none;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: auto;
+	width: 25%;
+	height: 200px;
+	transition: background-color 0.30s,
+}
+
+button:hover{
+	background-color:#de6178;
+	opacity: 0.8;
+}
+button:hover span{
+	display: none;
+}
+.music:hover:before{
+	content:"I Listen to Doja Cat, Billie Eilish, RINI, Jeremy zucker, and OPM artist: Arthur Nery and ADIE. I like rap music especially if its Doja Cat but i also listen to some mellow pop from artists like Harry styles, Bazzi, Sabrina Claudio, Lauv, some Ariana songs, and many more";
+}
+.movies:hover:before{
+	content:"I love watching Marvel movies. You can invite me over for binge watching a marlvel movie or their tv series. Some genre of movies that i watch are comedy, romcom or those old and popular melodrama movies.";
+}
+.games:hover:before{
+	content:"The only pc games that i play the most are genshin impact and valorant and Mobile Legend in phone games";
+}
+.fav-foods:hover:before{
+	content:"I will eat anything that is served before me but if i had the option to choose, I wont eat the vegetables one";
+}
+.Anime:hover:before{
+	content:"One Piece is a classic anime if you dont want to be left hangging from lacking more episodes. Mob Psycho 100 is surprisingly good too. ";
+}
+.catdog:hover:before{
+	content:"I like both cats and dog but predominantly a cat person. I like the comfort cats give when all they wanted to do is to cuddle. Dogs are great too but dogs are more active than cats and it gets exhausting sometimes";
+}
+
+.ap-preview {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+	margin-left: 50px;
+}
+
+.thumbnail-row {
+	margin-bottom: 12px;
+	margin-top: 20px;
+
+}
+
+.thumbnail {
+	width: 300px;
+	display: block;
+  }
+
+.picture-caption {
+	display: inline-block;
+	width: 200px;
+}
+.picture-text {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+	margin-bottom: 12px;
+}
+
+.alfie-pic{
+	width: 200px;
+}
+
+.picture-resume{
+	display: inline-block;
+	width: 200px;
+}
+
+.resume-intro{
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	height: fit-content;
+	vertical-align: top;
+}
+.about-me{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	margin: 2px;
+}
+.resume-name{
+	font-size: 20px;
+}
+.resume-details{
+	text-align: justify;
+
+}
+.resume-head{padding-left: 5%;}
+.resume-block-info{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-left: 30px;
+}
+.resume-info{
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	height: fit-content;
+	vertical-align: top;
+	padding: 0%;
+	margin-left: 10%;
+	margin-right: 0%;
+}
+
+.resume-skills{
+	display: inline-block;
+	width: 22%;
+	vertical-align: top;
+}
+.main-skills{
+	vertical-align: top;
+	display: inline-block;
+	width: 22%;
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+.title-skills{
+	padding-left: 20%;
+
+}
+
+.footer{
+	background-color: #1a2229;
+	color: #BF9341;
+	width: 100%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 10px;
+	text-align: right;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.identifier{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fb-link:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Style the navbar */
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+	padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 60px;
+  }
