@@ -8,7 +8,7 @@ div {
 }
 #welcome{
     justify-items: center;
-    background-color: #00a59d;
+    background: radial-gradient(#00a59d, #51d5cf 90%);
 }
 
 h1{
