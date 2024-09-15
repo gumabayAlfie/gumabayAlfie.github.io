@@ -7,8 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Pacifico&display=swap" rel="stylesheet">
     <title>CYAN'S PORTFOLIO</title>
 </head>
+<body>
 
-    <body>
         <div id="navbar">
             <div><a href="https://gumabayAlfie.github.io/index.html">Home</a></div>
             <div><a href="https://gumabayalfie.github.io/about.html">About</a></div>
@@ -102,7 +102,7 @@
 <hr>
 
 <div class="container"></div>
-    <div class="column">
+    <div class="column"> 
         <div class="column-title">
             <p class="title-skills">Educational Background</p>
         </div>
@@ -143,5 +143,18 @@
         </div>
     </div>
 </div>
-    </body>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
 </html>
