@@ -262,6 +262,6 @@ img {
   transition: transform 0.2s ease-in-out; 
 }
 
-img:hover {
+.gallery_pics:hover {
   transform: scale(1.50);
 }
